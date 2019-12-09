@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-	
+
 <!-- Mirrored from giantblog.themeebit.com/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 19 Nov 2019 16:46:18 GMT -->
 <head>
 		<!-- Meta-->
@@ -15,38 +15,38 @@
 		<link href="../fonts.googleapis.com/css6109.css?family=Poppins:400,500,600,700" rel="stylesheet">
 
 		<!-- owl carousel css -->
-		<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+		<link rel="stylesheet" href="{{asset('Content')}}/assets/css/owl.carousel.min.css">
 
 		<!-- animate -->
-		<link rel="stylesheet" href="assets/css/animate.min.css">
+		<link rel="stylesheet" href="{{asset('Content')}}/assets/css/animate.min.css">
 
 		<!-- ionicon -->
-		<link rel="stylesheet" href="assets/css/ionicons.min.css">
+		<link rel="stylesheet" href="{{asset('Content')}}/assets/css/ionicons.min.css">
 
 		<!-- bootstrap css -->
-		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		<link rel="stylesheet" href="{{asset('Content')}}/assets/css/bootstrap.min.css">
 
 		<!-- bootstrap css -->
-		<link rel="stylesheet" href="assets/css/meanmenu.css">
+		<link rel="stylesheet" href="{{asset('Content')}}/assets/css/meanmenu.css">
 
 		<!-- Style css -->
-		<link rel="stylesheet" href="assets/css/style.css">
+		<link rel="stylesheet" href="{{asset('Content')}}/assets/css/style.css">
 
 		<!-- responsive css -->
-		<link rel="stylesheet" href="assets/css/responsive.css">
+		<link rel="stylesheet" href="{{asset('Content')}}/assets/css/responsive.css">
 
 		<!-- Favicon  -->
-		<link rel="shortcut icon" href="assets/img/components/favicon.html" type="image/x-icon">
-		<link rel="icon" href="assets/img/components/fevicon.png" type="image/x-icon">
+		<link rel="shortcut icon" href="{{asset('Content')}}/assets/img/components/favicon.html" type="image/x-icon">
+		<link rel="icon" href="{{asset('Content')}}/assets/img/components/fevicon.png" type="image/x-icon">
 	</head>
 	<body>
 		<!-- preloader -->
-		<div id="preloader">
+		{{-- <div id="preloader">
 			<div class="preloader-content">
-				<img src="assets/img/components/preloader.gif" alt=""> 
+				<img src="{{asset('Content')}}/assets/img/components/preloader.gif" alt="">
 			</div>
-		</div>
-		
+		</div> --}}
+
 		<div class="giant-blog contact">
 			<!-- ===========================================
 						== Start Main Menu ==
@@ -57,7 +57,7 @@
 						<div class="col-md-2 col-sm-2">
 							<div class="header_logo">
 								<a href="index-2.html">
-									<img src="assets/img/components/blog-logo.png" alt="logo">
+									<img src="{{asset('Content')}}/assets/img/components/blog-logo.png" alt="logo">
 								</a>
 							</div>
 						</div>
@@ -173,7 +173,7 @@
 												(+000) 111 2222 33 44
 												<span>Monday-Friday, 8am - 8pm</span>
 											</h6>
-											
+
 										</li>
 										<li>
 											<span>Email</span>
@@ -185,7 +185,7 @@
 										<li>
 											<span>Address</span>
 											<h6>
-												724 Woodland Road 
+												724 Woodland Road
 												<span>Marlton, NJ 08053</span>
 											</h6>
 										</li>
@@ -279,7 +279,7 @@
 								<div class="footer_widget">
 									<div class="brand_logo">
 										<a href="index-2.html">
-											<img src="assets/img/components/blog-logo.png" alt="companny logo">
+											<img src="{{asset('Content')}}/assets/img/components/blog-logo.png" alt="companny logo">
 										</a>
 									</div>
 								</div>
@@ -289,9 +289,9 @@
 									<h3 class="widget_title">Get in touch</h3>
 									<div class="footer_widget_content">
 										<p>
-											Duis autem vel eum iriure dolor 
+											Duis autem vel eum iriure dolor
 											hendrerit in vulputate velit esse
-											lobortis nisl ut alquh commodo 
+											lobortis nisl ut alquh commodo
 											olestie consequat.
 										</p>
 									</div>
@@ -333,7 +333,7 @@
 										<ul>
 											<li>
 												<div class="recent_post_image">
-													<img src="assets/img/footer/p-post-1.jpg" alt="recent post image">
+													<img src="{{asset('Content')}}/assets/img/footer/p-post-1.jpg" alt="recent post image">
 												</div>
 												<div class="recnet_post_content">
 													<a href="#">
@@ -344,7 +344,7 @@
 											</li>
 											<li>
 												<div class="recent_post_image">
-													<img src="assets/img/footer/p-post-2.jpg" alt="recent post image">
+													<img src="{{asset('Content')}}/assets/img/footer/p-post-2.jpg" alt="recent post image">
 												</div>
 												<div class="recnet_post_content">
 													<a href="#">
@@ -384,31 +384,31 @@
 			=========================================== -->
 		</div>
 		<!-- Vendor  -->
-		<script src="assets/js/vendor/jquery-1.12.1.min.js"></script>
+		<script src="{{asset('Content')}}/assets/js/vendor/jquery-1.12.1.min.js"></script>
 
 		<!-- Library Min js-->
-		<script src="assets/js/bootstrap.min.js"></script>
+		<script src="{{asset('Content')}}/assets/js/bootstrap.min.js"></script>
 
 		<!-- Library Min js-->
-		<script src="assets/js/jquery.meanmenu.min.js"></script>
+		<script src="{{asset('Content')}}/assets/js/jquery.meanmenu.min.js"></script>
 
 		<!-- Venobox -->
-		<script src="assets/js/jquery.easing.min.js"></script>
+		<script src="{{asset('Content')}}/assets/js/jquery.easing.min.js"></script>
 
 		<!-- Venobox -->
-		<script src="assets/js/owl.carousel.min.js"></script>
+		<script src="{{asset('Content')}}/assets/js/owl.carousel.min.js"></script>
 
 		<!-- Waypoint -->
-		<script src="assets/js/waypoints.min.js"></script>
+		<script src="{{asset('Content')}}/assets/js/waypoints.min.js"></script>
 
 		<!-- Venobox -->
-		<script src="assets/js/wow.min.js"></script>
-		
+		<script src="{{asset('Content')}}/assets/js/wow.min.js"></script>
+
 		<!-- Google Map -->
 		<script src="../maps.googleapis.com/maps/api/js"></script>
-		
+
 		<!-- main js -->
-		<script src="assets/js/main.js"></script>
+		<script src="{{asset('Content')}}/assets/js/main.js"></script>
 	</body>
 
 <!-- Mirrored from giantblog.themeebit.com/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 19 Nov 2019 16:46:18 GMT -->
