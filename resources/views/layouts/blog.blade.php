@@ -11,10 +11,9 @@
     <title>Giant Blog HTML5 Template</title>
 
     <!-- Google Fonts -->
-    <link href="../fonts.googleapis.com/css6109.css?family=Poppins:400,500,600,700" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
     <!-- owl carousel css -->
-    <link rel="stylesheet" href="{{asset('Content/')}}assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="{{asset('Content')}}/assets/css/owl.carousel.min.css">
 
     <!-- animate -->
     <link rel="stylesheet" href="{{asset('Content')}}/assets/css/animate.min.css">
@@ -135,7 +134,7 @@
                 </div>
             </div>
         </div>
-        
+
         @yield('content');
         <footer class="footer_area">
             <div class="footer_top">
