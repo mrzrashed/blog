@@ -1426,7 +1426,7 @@ article:nth-child(2n) .blog_image_container {
 }
 .history_img1{
 	z-index: 9;
-	
+
 	transition-delay: .30s;
 }
 .history_img1:hover{
@@ -1434,7 +1434,7 @@ article:nth-child(2n) .blog_image_container {
 }
 .history_img2{
 	z-index: 1;
-	
+
 	transition-delay: .30s;
 }
 
