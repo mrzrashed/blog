@@ -4,11 +4,12 @@
 <head>
     <!-- Meta-->
     <meta charset="utf-8">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Title-->
-    <title>Giant Blog HTML5 Template</title>
+    <title>@yield('title','Blog')</title>
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
@@ -39,17 +40,7 @@
 </head>
 
 <body>
-    <!-- preloader -->
-    <!-- <div id="preloader">
-			<div class="preloader-content">
-				<img src="{{asset('Content')}}/assets/img/components/preloader.gif" alt="">
-			</div>
-		</div> -->
-
     <div class="giant-blog error">
-        <!-- ===========================================
-						== Start Main Menu ==
-			=========================================== -->
         <div class="header-area">
             <div class="container">
                 <div class="row">
@@ -65,26 +56,9 @@
                             <nav class="mainmenu">
                                 <ul>
                                     <li class="active">
-                                        <a href="index-2.html">
+                                        <a href="{{url('/home')}}">
                                             Home
                                         </a>
-                                        <ul class="dropdown">
-                                            <li>
-                                                <a href="index-2.html">Home One</a>
-                                            </li>
-                                            <li>
-                                                <a href="index2.html">Home Two</a>
-                                            </li>
-                                            <li>
-                                                <a href="index3.html">Home Three</a>
-                                            </li>
-                                            <li>
-                                                <a href="index4.html">Home Four</a>
-                                            </li>
-                                            <li>
-                                                <a href="index5.html">Home Five</a>
-                                            </li>
-                                        </ul>
                                     </li>
                                     <li>
                                         <a href="index-2.html">Posts</a>
@@ -92,27 +66,18 @@
                                     <li>
                                         <a href="index-2.html">Categories</a>
                                     </li>
+
                                     <li>
-                                        <a href="index-2.html">
-                                            Pages
-                                        </a>
-                                        <ul class="dropdown">
-                                            <li>
-                                                <a href="about_us.html">About</a>
-                                            </li>
-                                            <li>
-                                                <a href="single_blog.html">Single Blog</a>
-                                            </li>
-                                            <li>
-                                                <a href="contact.html">Contact</a>
-                                            </li>
-                                            <li>
-                                                <a href="error.html">Error</a>
-                                            </li>
-                                        </ul>
+                                        <a href="about_us.html">About</a>
                                     </li>
+
                                     <li>
-                                        <a href="contact.html">Contact </a>
+                                        <a href="{{url('Contact')}}">Contact</a>
+                                    </li>
+
+
+                                    <li>
+                                        <a href="{{url('Contact')}}">Contact </a>
                                     </li>
                                 </ul>
                             </nav>
